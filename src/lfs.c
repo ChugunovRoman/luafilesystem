@@ -1236,9 +1236,9 @@ LUALIB_API int luaopen_lfs(lua_State *L)
 {
   dir_create_meta(L);
   lock_create_meta(L);
-  new_lib(L, fslib);
   lua_pushvalue(L, -1);
-  lua_setglobal(L, LFS_LIBNAME);
+  luaL_register(L, LFS_LIBNAME, fslib);
   set_info(L);
+
   return 1;
 }
