@@ -1,3 +1,7 @@
+#include <lua.h>
+#include <lauxlib.h>
+#include <lualib.h>
+
 /*
 ** LuaFileSystem
 ** Copyright Kepler Project 2003 - 2020

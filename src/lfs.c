@@ -81,10 +81,6 @@
 
 #endif
 
-#include <lua.h>
-#include <lauxlib.h>
-#include <lualib.h>
-
 #include "lfs.h"
 
 #define LFS_VERSION "1.8.0"
