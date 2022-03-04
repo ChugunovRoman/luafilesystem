@@ -35,7 +35,7 @@ extern "C"
 {
 #endif
 
-  LUALIB_API int luaopen_lfs(lua_State *L);
+LUALIB_API int luaopen_lfs(lua_State *L);
 
 #ifdef __cplusplus
 }
